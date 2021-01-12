@@ -139,7 +139,7 @@ EMAIL_HOST_PASSWORD = 'zxiojlspifjwdxci'
 # MEDIA_URL = '/static/'
 # MEDIA_ROOT = os.path.join(BASE_DIR, 'static')
 STATIC_URL = '/static/'
-STATIC_ROOT = "/OrkaFarm/orkafarm/orka/static"
+STATIC_ROOT = "/orkafarm/orka/static"
 
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 
