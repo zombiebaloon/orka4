@@ -25,9 +25,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'pzj8#d9_7)9rgcsc3biv4t+2_aigbxkl6z+x+!%_5q@=vn(kp+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','orkafarmwebsite.herokuapp.com','orkafarm.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -130,11 +130,17 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'madhu.orka@gmail.com'
 EMAIL_HOST_PASSWORD = 'zxiojlspifjwdxci'
 
-STATIC_URL = '/static/'
+# STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
-]
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR, 'static')
+# ]
+
+# MEDIA_URL = '/static/'
+# MEDIA_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_URL = '/static/'
+STATIC_ROOT = "/OrkaFarm/orkafarm/orka/static"
+
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
