@@ -27,7 +27,7 @@ SECRET_KEY = 'pzj8#d9_7)9rgcsc3biv4t+2_aigbxkl6z+x+!%_5q@=vn(kp+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','https://orkafarmwebsite.herokuapp.com/','orkafarm.com']
+ALLOWED_HOSTS = ['127.0.0.1','orkafarmwebsite.herokuapp.com','orkafarm.com']
 
 
 # Application definition
